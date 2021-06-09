@@ -283,7 +283,13 @@
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPAnchor.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPSession.cs" />
     <Compile Include="Assets\GoogleARCore\SDK\Scripts\XPTrackingState.cs" />
-    <Compile Include="Assets\UI\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\Scripts\Kacamata1.cs" />
+    <Compile Include="Assets\Scripts\Kacamata1Data.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\SaveSystem.cs" />
+    <Compile Include="Assets\Scripts\SetActive.cs" />
+    <Compile Include="Assets\Scripts\SetActiveLoadObject.cs" />
     <None Include="Assets\UI\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\GoogleARCore\Examples\AugmentedFaces\Materials\Shaders\AugmentedFaceOccluder.shader" />
     <None Include="Assets\UI\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
