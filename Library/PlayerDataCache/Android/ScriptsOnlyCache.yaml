@@ -38,8 +38,6 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
-    com.unity.multiplayer-hlapi.Runtime.dll:
-    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/InformationScene.unity:
     - Class: 1
@@ -54,6 +52,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
@@ -67,13 +67,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12256}
     - Class: 114
+      Script: {instanceID: 12296}
+    - Class: 114
       Script: {instanceID: 12654}
     - Class: 114
       Script: {instanceID: 13202}
     - Class: 114
+      Script: {instanceID: 13222}
+    - Class: 114
       Script: {instanceID: 13494}
     - Class: 114
       Script: {instanceID: 13582}
+    - Class: 114
+      Script: {instanceID: 13822}
     - Class: 114
       Script: {instanceID: 14126}
     - Class: 115
@@ -111,8 +117,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 49
-      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 90
@@ -138,8 +142,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 12256}
     - Class: 114
-      Script: {instanceID: 12296}
-    - Class: 114
       Script: {instanceID: 12502}
     - Class: 114
       Script: {instanceID: 12654}
@@ -150,8 +152,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 13202}
     - Class: 114
-      Script: {instanceID: 13222}
-    - Class: 114
       Script: {instanceID: 13236}
     - Class: 114
       Script: {instanceID: 13328}
@@ -161,8 +161,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 13582}
     - Class: 114
       Script: {instanceID: 13754}
-    - Class: 114
-      Script: {instanceID: 13822}
     - Class: 114
       Script: {instanceID: 14126}
     - Class: 114
@@ -1102,6 +1100,6 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   platform: 13
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
   - Assets/Scenes/InformationScene.unity
+  - Assets/Scenes/SampleScene.unity
   playerPath: D:/Documents/SEMESTER 6/IMK/Unity/AR Faces/Builds/KacamataPicker.apk
